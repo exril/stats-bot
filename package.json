@@ -1,0 +1,16 @@
+{
+  "name": "statsvps",
+  "version": "1.0.0",
+  "description": "A Discord bot that displays server stats.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "discord.js": "^14.14.1",
+    "node-fetch": "^3.3.1",
+    "pm2": "^5.4.2",
+    "systeminformation": "^5.23.5"
+  }
+}
